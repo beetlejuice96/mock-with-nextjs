@@ -1,6 +1,4 @@
 # deploy-production.yaml
-
-# Workflow to build and deploy site to Vercel using Hugo
 # Name of Workflow
 name: deploy-production
 
