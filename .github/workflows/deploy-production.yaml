@@ -43,9 +43,7 @@ jobs:
           #github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required
-          github-comment: false
-          vercel-args: "--prod"
-          working-directory: public
+
       # Update deployment status
       - name: Update Deployment Status
         uses: bobheadxi/deployments@v0.4.3
